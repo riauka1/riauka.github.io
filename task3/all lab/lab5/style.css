@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+table {
+	column-fill: balance-all;
+}
+td#fname {
+	background-image: url('6.jpg');
+	text-align: center;
+	background-size: 100%, 100%;
+	padding: 30px ;
+	margin: 30px;
+}
+p.sectext{
+	font-family: 'Alfa Slab One', cursive;
+    color: white;
+    margin: 10px;
+    padding-top:5px;
+    text-transform: uppercase;
+    font-size: xx-Large; 
+}
+p.thtext {
+    font-family: 'Noto Sans Display', sans-serif;
+    color: gray; 
+    padding: 10px;
+    margin: 5px;
+   font-size: large;
+   font-weight: bolder;
+}
+input.button {
+	border-color: deeppink;
+	text-transform: uppercase ;
+}
+p.question {
+	font-family: 'Architects Daughter', cursive;
+	   color: black;
+   font-size: x-large;
+   text-align: right;
+     padding-right: 5px;
+   padding-left: 5px;
+}
+p.fotext {
+	color: gray;
+	text-align: right;
+	padding: 5px;
+}
+td.btext{
+	color: gray;
+	padding: 10px;
+	margin: 10px;
+}
+p.images {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+td.end {
+	background-color:gray ;
+	color: deeppink;
+	text-align: right;
+	padding-top: 10px ;
+	padding-bottom: 10px;
+}

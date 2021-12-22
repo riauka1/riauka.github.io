@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>11-4</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var text1 = window.prompt("enter first text");
+    var text2 = window.prompt("enter second text");
+    if (text1.length > text2.length) {
+      document.write(""+text1+" is more string than second");
+    }
+    else {document.write(""+text2+" is more string than first");
+    }
+    //11-4
+
+
+     var telNo = window.prompt("enter phone number");
+     document.writeln("(+976) "+telNo.substring(0,4)+"-"+telNo.substring(4,8)+"");
+    //11-5
+
+      var  text = window.prompt("enter text");
+      var array = text.split(" ");
+      var newtext = ("");
+      for (var i = array.length-1; i >= 0; i-- ){
+        newtext +=array[i] ;
+      
+     document.writeln("Old text was:"+text+", <br> now it is:  "+newtext+"");
+     //11-6
+
+    var text = window.prompt("enter text");
+      document.write(""+text.toLowerCase()+", <br> "+text.toUpperCase()+"");
+      //11-7
+     
+      var text = window.prompt("enter sentence");
+      var word = window.prompt("enter a word that you search");
+      var length = word.length
+      var text2 = text.split(" ");
+      var first = text.indexOf(word);
+      var c = 0;
+      
+      for ( var i = 0; i < text2.length; i++){
+        output = text.indexOf(word, first);
+        if (output != -1){
+          c += 1;
+        }
+        first += (length+1);
+      
+      }
+      //11-8
+
+
+    
+
+      
+     
+      
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>

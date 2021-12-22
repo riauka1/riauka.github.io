@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Oswald:wght@200&family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(1.jpg);s
+}
+table {
+	margin-left: 50px;
+	width: 90%;
+	height: 900px;
+	background-color: white;
+}
+ .heading {
+ 	width: 950px;
+ 	height: 100px;
+ }
+
+
+#text1 {
+	font-family: 'Twinkle Star', cursive;
+	font-weight: bolder;
+	font-size: 64px;
+	color: red;
+	width: 700px;
+	padding-right: 100px;
+	margin-left: 200px;
+}
+#date{
+	font-size: 15px;
+	font-weight: bolder;
+}
+.second{
+	height: 50px;
+	background-color: #cf2424;
+}
+
+.second ul {
+	list-style-type: none;
+	position: static;
+}
+.second li {
+	position:relative;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.second li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+.second li a:hover {
+	color: black;
+}
+.third{
+	width: 900px; 
+
+}
+.fourth{
+	background-color: #cf2424;
+	text-align: center;
+	font-weight: bold;
+	border: 5px solid orange;
+	border-radius: 10px;
+	
+}
+.fourth i {
+	font-size: 30px;
+	margin-top: 50px;
+
+}
+.fourth h3 {
+	color: black;
+	font-family: 'Lobster', cursive;
+	margin-top: -50px;
+}
+.fourth ol{
+	list-style-type: none;
+}
+.fourth li {
+	margin-top: 20px;
+	margin-right: 100px;
+}
+.fourth li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+.button{
+	background-color: orange;
+	font-size: 15px;
+	width: 300px;
+	height: 50px;
+	border: none;
+	transition: 0.3s;
+	opacity: 0.5;
+}
+.button a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.button:hover {
+	opacity: 1;
+}
+
+ .fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.end span {
+	font-weight: bold;
+	font-size: 25px;
+	text-shadow: 0 0  10px deepskyblue;
+}
+  @media(max-width: 950px)
+	{ body {column-count:1;
+		width: 100%}
+	}
+	@media(max-device-width: 480px)
+	{
+		body {
+			column-count: 1;
+			width: 95%;
+		}
+	}

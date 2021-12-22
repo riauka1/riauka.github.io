@@ -1,0 +1,18 @@
+div{
+	margin-bottom: 40px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+.box1 {
+	background-color: orange;
+	box-shadow: 15px 15px 20px dimgrey;
+}
+.box2{
+	background-color: #4caf50;
+	box-shadow: -15px -15px 30px dimgrey;
+}
+.box3{
+	background-color: #af4c4c;
+	box-shadow: 15px 15px 10px dimgrey;
+}

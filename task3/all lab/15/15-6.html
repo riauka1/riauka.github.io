@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+ <p>Insert item</p>
+<form>
+Name:<input type="text" name="name" id="item"><br>
+Price:<input type="number" name="name" id="price"><br>
+</form><br><br>
+
+<table id="myTable" border="1">
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <th>Total</th>
+    <th id="sum"></th>
+  </tr>
+  
+</table>
+<br>
+
+<button type="button" onclick="myFunction()">Insert</button>
+
+<script>
+function myFunction() {
+	var first = document.getElementById("item").value;
+    var second = document.getElementById("price").value;
+
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(1);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = first;
+  cell2.innerHTML = second;
+  var sum = 0;
+  sum = parseInt(sum);
+  sum = second;
+
+  document.getElementById("sum").innerHTML += sum;
+}
+</script>
+
+</body>
+</html>

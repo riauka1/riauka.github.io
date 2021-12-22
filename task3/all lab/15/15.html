@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>15-1</title>
+</head>
+<body>
+	
+	<input type="text" name="first" id="output"/>
+	<button onclick="change()">click</button>
+	<div id="result"></div>
+
+<script type="text/javascript">
+	
+	function change(){
+		var input = document.getElementById("output").value;
+		
+		document.getElementById("result").innerHTML = input;
+	}
+	document.body.setAttribute("style","font-size" + "25px")
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>11-3</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var number = window.prompt("enter number");
+
+		function RoundToInteger(number){
+			var y = Math.floor(number);
+			return y;
+		}
+		document.write("Ихгүй бүхэл тоо руу хөрвүүлэх"+RoundToInteger(number)+"");
+		
+		function RoundToTenths(number){
+			var y = Math.floor(number * 10 + .5)/10;
+			return y;
+		}
+		document.write(" <br> 10-тын орноор тоймлох "+RoundToTenths(number)+"");
+		
+		function RoundToHundredths(number){
+			var y = Math.floor(number * 100 + .5)/100;
+			return y;
+		}
+		document.write("<br> 100-тын орноор тоймлох"+RoundToHundredths(number)+"");
+
+		function RoundToThousandths(number){
+			var y = Math.floor(number * 1000 + .5)/1000;
+			return y;
+		}
+
+		document.write("<br> 1000-тын орноор тоймлох "+RoundToThousandths(number)+"");
+		
+
+
+
+	</script>
+</body>
+</html>

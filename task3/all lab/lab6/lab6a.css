@@ -1,0 +1,47 @@
+div.container {
+	position:static;
+	list-style-type: none;	
+    width: 70%;
+    height: 50px;
+}
+#topmenu {
+	background-color: green;
+	text-align: center;
+	font-size: large;
+	padding: 0px;
+	}
+#topmenu>li{
+	position:relative;
+	display: inline-block;       
+	padding:10px;
+	width:100px;
+	height:50px;
+}
+#topmenu ul{
+	position: absolute;
+	display: none;
+	padding-top: 10px;
+	top: 30px;
+	list-style-type: none;
+
+}
+#topmenu>li:hover ul{
+	display: block;
+	border-radius: 5px;
+	position: absolute;
+	right: -25px;
+	
+} 
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 100px;
+}
+li.uclr {
+	color: #000000;
+	background-color: gray;
+	width: 150px ;
+	padding: 10px;
+
+ }
+   

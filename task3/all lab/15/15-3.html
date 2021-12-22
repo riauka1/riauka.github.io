@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>15-3</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td>Name</td>
+			<td>Town</td>
+		</tr>
+		<tr>
+			<td>Eve</td>
+			<td>Sofia</td>
+		</tr>
+		<tr>
+			<td>Nick</td>
+			<td>Varna</td>
+		</tr>
+		<tr>
+			<td>Didi</td>
+			<td>Ruse</td>
+		</tr>
+		<tr>
+			<td>Tedy</td>
+			<td>Varna</td>
+		</tr>
+	
+	</table>
+		<button onclick="color()">Colorize</button>
+</body>
+<script type="text/javascript">
+	function color(){
+		var table = document.getElementsByTagName("td");
+		table[2].style.backgroundColor = "yellow";
+		table[3].style.backgroundColor = "yellow";
+		table[6].style.backgroundColor = "yellow";
+		table[7].style.backgroundColor = "yellow";
+	}
+</script>
+</html>

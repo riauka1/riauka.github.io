@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Melting Images</title>
+	<style type="text/css">
+		#cover{
+			position: relative;
+			margin: 0 auto;
+		}
+		#cover {
+			background-image: url(3.jpg);
+			background-repeat: no-repeat;
+			background-size: 200px 200px;
+			width: 400px;
+			height: 400px;
+			left: 0;
+			animation-name: melt ;
+	 		animation-duration: 10s;
+           animation-iteration-count: 1;
+             animation-timing-function: linear;
+          animation-direction: alternate;
+           position: relative;}
+
+	@keyframes melt {
+  0% { background-image: url(4.jpg);}
+  25% {background-image: url(5.jpg);}
+  50% { background-image: url(6.jpg);}
+  100% {background-image: url(7.jpg);}
+} 
+	</style>
+</head>
+<body>
+	<div id="cover">
+		
+	</div>
+
+</body>
+</html>

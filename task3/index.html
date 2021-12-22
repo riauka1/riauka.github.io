@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My first web page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<table >
+		<tr class="heading">
+			<td class="icon" colspan="2"><img src="christmas-tree.png" width="130px" height="130px" alt="tree">
+				<span id="text1">Have a nice day!</span>
+				<span id="date">date</span>			
+			</td>
+			
+		</tr>
+		<tr >
+			<td colspan="2" class="second">
+				<ul>
+							<li><a href='about.html'>Миний тухай</a></li>
+							<li><a href="https://ghiblicollection.com/">Хобби</a></li>
+							<li><a href='https://mn.wikipkoedia.org/wiki/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B0%D0%B9_%D0%B0%D0%B9%D0%BC%D0%B0%D0%B3'>Төрсөн нутаг</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td class="third">
+
+				<button class="button"><a href="C:\Users\Temuulen\Downloads\itu\task2/my cal.html">Do you need calculator</a></button>
+				<img src="4.jpg" width="750px" height="750px" alt="newyear">
+				
+			</td>
+						
+			<td class="fourth" colspan="2">
+				<i class="material-icons">computer</i>
+				<h3> <br> <br>Интернет технологийн үндэс  <br>хичээлийн лабораторийн <br> дасгал ажлууд</h3>
+
+				<ol>
+
+			
+					<li><a href="web2/lab1.html">Лаборатори 1</a></li>
+					<li><a href="all lab/lab2/lab2.html">Лаборатори 2</a></li>
+					<li><a href="all lab\lab 3/lab3.html">Лаборатори 3</a></li>
+					<li><a href="all lab/lab4.html">Лаборатори 4</a></li>
+					<li><a href="all lab/lab5/lab5.html">Лаборатори 5</a></li>
+					<li><a href="all lab/lab6.html">Лаборатори 6</a></li>
+					<li><a href="all lab\lab7/lab7.html">Лаборатори 7</a></li>
+					<li><a href="all lab/lab8.html">Лаборатори 8</a></li>
+					<li><a href="all lab/lab9.pdf">Лаборатори 9</a></li>
+					<li><a href="all lab/lab10.pdf">Лаборатори 10</a></li>
+					<li><a href="all lab/lab11.pdf">Лаборатори 11</a></li>
+					<li><a href="all lab/lab12.pdf">Лаборатори 12</a></li>
+					<li><a href="all lab/lab8/lab13.pdf">Лаборатори 13</a></li>
+					<li><a href="all lab/lab14/lab11.pdf">Лаборатори 14</a></li>
+					<li><a href="all lab/15/15.pdf">Лаборатори 15</a></li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td class="end">
+				<span>Follow me on social media:</span>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-snapchat-ghost"></a>
+				<a href="#" class="fa fa-yahoo"></a>
+			</td>
+		</tr>
+	
+		
+
+			
+		
+
+
+
+	</table>
+	<script type="text/javascript">
+		function start(){
+		var today = new Date ();
+		var k = today.getDay();
+		var x;
+		switch (k){
+			case 0: x = "Ням";
+			break; 
+			case 1: x = "Даваа"; 
+			break; 
+			case 2: x = "Мягмар"; 
+			break; 
+			case 3: x = "Лхагва"; 
+			break; 
+			case 4: x = "Пүрэв"; 
+			break; 
+			case 5: x = "Баасан"; 
+			break; 
+		    default: x = "Бямба";
+		}
+		document.getElementById('date').innerHTML = today.toLocaleString() + " " + x + " "+"гариг";
+	}
+	    window.addEventListener("load" ,start, false)
+
+
+	</script>
+</body>
+</html>

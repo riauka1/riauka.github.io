@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+button {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	
+}
+.fadein {
+	background-color: #746C6B;
+	border: none;
+	width: 100px;
+	height: 50px;
+	color: white;
+	transition: 0.3s;
+    opacity:0.5;
+    margin: 10px;
+}
+.fadein:hover {
+	opacity: 1;
+}
+.color {
+	background-color: #746C6B;
+	border: none;
+	width: 100px;
+	height: 50px;
+	color: white;
+	transition: 0.3s;
+	margin: 10px;
+}
+.color:hover {
+   color: black;
+}
+.grow {
+	background-color: #746C6B;
+	border: none;
+	width: 100px;
+	height: 50px;
+	color: white;
+	transition: transform 0.3s;
+	margin: 10px;
+         
+}
+.grow:hover {
+	transform: scale(1.6);
+}
+.shrink {
+	background-color: #746C6B;
+	border: none;
+	width: 100px;
+	height: 50px;
+	color: white;
+	transition: transform 0.3s;
+	margin: 10px;
+    
+}
+.shrink:hover {
+	transform: scale(0.6);
+}
+.rotate {
+	background-color: #746C6B;
+	border: none;
+	width: 100px;
+	height: 50px;
+	color: white;
+	transition: transform 0.3s;
+	margin: 10px; 
+}
+.rotate:hover {
+	transform: rotate(-30deg);
+}
+div.text{
+  color:#746C6B;
+  position: relative;
+  text-align: center;
+}
+div.background{
+	background-color: #746C6B;
+   width: 0px;
+   height: 50px;
+   position: absolute;
+    transition: all 0.5s ease-in-out 0.1s; }
+
+div.border{
+  height: 50px;
+  position: absolute;
+  background-color: white;
+  box-sizing: border-box;
+
+}
+ button.tab{
+ 	width: 100px;
+ 	height: 50px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+ }
+
+ button.tab:hover div.background{
+ 	width: 100px;
+ }
+button.tab:hover div.text{
+ 	color: white;
+ }

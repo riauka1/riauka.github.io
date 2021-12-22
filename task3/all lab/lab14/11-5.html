@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>11-5</title>
+</head>
+<body>
+	
+	<h1>Цагаан толгойн үсгээр эхэлсэн үгний тоо<h1>
+	<script type="text/javascript">
+	
+    var text = window.prompt("Өгүүлбэрээ оруулна уу");
+    text = text.toLowerCase();
+    var text2 = text.split(" ");
+    var array = ['а','б','в','г','д','е','ё','ж','з','и','й','к','л','м','н','о','ө',
+    'п','р','с','т','у','ү','ф','х','ц','ч','ш','э','ю','я']
+    for (var i = 0; i < array.length; i++){
+    		var c = 0;
+    	for ( var j = 0; j < text2.length; j++)
+    	if (array[i] === text2[j][0]){
+    	 c += 1
+    	}
+    	document.writeln("<br> "+array[i]+" = "+c+"");
+    }
+	</script> 
+	</body> 
+	</html>
+
+	</script>
+</body>
+</html>

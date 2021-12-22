@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>15-2</title>
+</head>
+<body>
+	<span>1st Number:</span>
+	<input type="number" name="name" id="first"> <br><br>
+	<span>2nd Number:</span>
+	<input type="number" name="name" id="second"><br><br>
+	<button onclick="multiply()">Multiply</button>
+	<button onclick="divide()">Divide</button> <br><br>
+	The result is:<span id="result"></span>
+	<script type="text/javascript">
+		
+			
+		function multiply(){
+			var a = document.getElementById("first").value;
+		  	var b = document.getElementById("second").value;
+			var mul =(a*b);
+			document.getElementById("result").innerHTML = mul;
+		}
+			
+		function divide() 
+		{ 
+        a = document.getElementById("first").value;
+        b = document.getElementById("second").value;
+        var div = a/b;
+		document.getElementById("result").innerHTML = div;
+		}
+		
+	
+	</script>
+
+</body>
+</html>

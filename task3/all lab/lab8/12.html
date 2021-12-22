@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media queries</title>
+	<style type="text/css">
+		.columns > div {
+			width: 300px;
+			height: 300px;
+		}
+	
+		.columns{column-count: 4}
+		.col1{
+			background-color: orange;
+			margin: 20px;
+		}
+		.col2{
+			background-color: yellow;
+			margin: 10px;
+		}
+		.col3{
+			background-color: green;
+			margin: 10px;
+		}
+		.col4{
+			background-color: red;
+			margin: 10px;
+		}
+		
+	@media(max-width: 950px)
+	{.columns{column-count:1;
+		width: 100%}
+	}
+	@media(max-device-width: 480px)
+	{
+		.columns{
+			column-count: 1;
+			width: 95%;
+		}
+	}
+	
+
+
+
+
+
+	</style>
+</head>
+<body><center><header><h1>Welcome</h1></header><center>
+	<div class="columns">
+		<div class="col1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper nec risus in congue. Nam interdum lectus sem, egestas fermentum massa condimentum vel. Vestibulum ultricies ut lacus consectetur hendrerit. Vestibulum aliquet augue purus, ut imperdiet erat mattis auctor. In eget consequat nibh. Quisque sit amet ligula nulla. Maecenas volutpat, felis sit amet vehicula dictum, diam velit vestibulum tortor, sed tempus lectus elit et eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam at iaculis nisi, et iaculis nulla. Integer imperdiet, dolor at faucibus malesuada, augue purus elementum felis, in blandit diam eros non nunc.</p></div>
+		<div class="col2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper nec risus in congue. Nam interdum lectus sem, egestas fermentum massa condimentum vel. Vestibulum ultricies ut lacus consectetur hendrerit. Vestibulum aliquet augue purus, ut imperdiet erat mattis auctor. In eget consequat nibh. Quisque sit amet ligula nulla. Maecenas volutpat, felis sit amet vehicula dictum, diam velit vestibulum tortor, sed tempus lectus elit et eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam at iaculis nisi, et iaculis nulla. Integer imperdiet, dolor at faucibus malesuada, augue purus elementum felis, in blandit diam eros non nunc.<p></div>
+		<div class="col3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper nec risus in congue. Nam interdum lectus sem, egestas fermentum massa condimentum vel. Vestibulum ultricies ut lacus consectetur hendrerit. Vestibulum aliquet augue purus, ut imperdiet erat mattis auctor. In eget consequat nibh. Quisque sit amet ligula nulla. Maecenas volutpat, felis sit amet vehicula dictum, diam velit vestibulum tortor, sed tempus lectus elit et eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam at iaculis nisi, et iaculis nulla. Integer imperdiet, dolor at faucibus malesuada, augue purus elementum felis, in blandit diam eros non nunc.</p></div>
+		<div class="col4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper nec risus in congue. Nam interdum lectus sem, egestas fermentum massa condimentum vel. Vestibulum ultricies ut lacus consectetur hendrerit. Vestibulum aliquet augue purus, ut imperdiet erat mattis auctor. In eget consequat nibh. Quisque sit amet ligula nulla. Maecenas volutpat, felis sit amet vehicula dictum, diam velit vestibulum tortor, sed tempus lectus elit et eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam at iaculis nisi, et iaculis nulla. Integer imperdiet, dolor at faucibus malesuada, augue purus elementum felis, in blandit diam eros non nunc.</p></div>
+	</div>
+</body>
+</html>

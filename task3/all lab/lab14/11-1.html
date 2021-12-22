@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>11-1</title>
+</head>
+
+<body>
+
+<button onclick = "now()">TodayDate</button>
+<button onclick="yest()">24hoursago</button>
+<button onclick="seven()">7 days ago</button>
+<button onclick="decade()">10 years ago</button>
+
+<script>
+
+function now(){
+	var current = new Date()
+	window.alert("Today is:  "+current.toLocaleString()+"");
+}
+
+function yest(){
+	var x = new Date()-86400000;
+	var yesterday = new Date(x);
+	window.alert("24 hours ago: "+yesterday.toLocaleString()+"")
+}
+
+function seven(){
+	var y = new Date()-604800000;
+	var week = new Date(y);
+	window.alert("7 days ago: "+week.toLocaleString()+"")
+}
+function decade(){
+	var z = new Date()-315360000000;
+	var years = new Date(z);
+	window.alert("10 years ago:"+years.toLocaleString()+"")
+}
+</script>
+
+</body>
+</html> 
+
+

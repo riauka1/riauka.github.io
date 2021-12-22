@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>11-11</title>
+</head>
+<body>
+	<textarea id="dom">Өгүүлбэр бол хэл зүйн нэг хэсэг бөгөөд үүнд юуны өмнө үг холбож өгүүлбэр бүтэхийн ёс, өгүүлбэрийн доторхи үгсийн "гишүүдийн" харьцаа, өгүүлбэр ба түүний янз бүрийн хэв шинжүүд, мөн өгүүлбэрүүдийг холбож нийлмэл өгүүлбэр бүтэх зүй тогтолыг нарийвчлан үзнэ. Ингэхдээ өгүүлбэр зүй нь аль нэгэн тодорхой өгүүлбэр, аль нэгэн тодорхой үгийн харьцааг шинжлэн үзэх биш харин нийт үг өгүүлбэрт холбогдох ерөнхий дүрмийг тогтоон гаргахад оршино. Ийм учраас өгүүлэгдэхүүн, тодотгол, хүүрнэх өгүүлбэр, нийлмэл өгүүлбэр гэх мэт хийсвэр ухагдахууныг илтгэсэн нэр томьёо хэрэглэдэг. Өгүүлбэрийг байгуулалтаар аймаглах нь Монгол хэлний өгүүлбэрийг түүний бүтэц байгуулалтаар нь хоёр бүрэлдэхүүнт өгүүлбэр, нэг бүрэлдэхүүнт өгүүлбэр, төгс бус өгүүлбэр гэх мэт ангилна.</textarea>
+	<script type="text/javascript">
+		var text = document.getElementById("dom").innerHTML;
+		var text2 = text.split(" ");
+		
+
+		for ( var i = 0; i < text2.length; i++){
+
+			var index  = text2[i].length-3;
+			var a = text2[i].indexOf("на", index);
+			var b = text2[i].indexOf("нэ", index);
+			var c = text2[i].indexOf("но", index);
+			var d = text2[i].indexOf("нө",index);
+			if (a != -1){
+				document.writeln(text2[i]);
+			} 
+		    if (b != -1){
+				document.writeln(text2[i]);
+		   }
+		    if (c != -1){
+			document.writeln(text2[i]);
+		   }
+		   if (d != -1){
+			document.writeln(text2[i]);
+			}
+		}
+		
+	
+
+	</script>
+</body>
+</html>
